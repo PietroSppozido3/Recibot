@@ -8,7 +8,7 @@ Como usar
 2. Digite o nome de um objeto
 3. Veja a recomendação
 
-Objetos suportados
+Objetos soportados
 
  bolsa de plastico
  vidrio
