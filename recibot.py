@@ -8,17 +8,36 @@ OBJETOS = {
         "reciclable": True,
         "tiempo_descomposicion": "1 millón de años"
     },
+
     "ropa vieja": { 
         "reciclable": False,
         "tiempo_descomposicion": "1-5 años",
         "manualidad": "puedes convertirla en trapos de limpieza o bolsas reutilizables"
     },
+
     "electrónicos": {
         "reciclable": False,
         "tiempo_descomposicion": "1000 años",
         "manualidad": "utilizarlos de repuestos o donarlos"
+    },
+
+    "botella de plastico": {
+        "reciclable": True,
+        "tiempo_descomposicion": "450 años",
+        "manualidad": "puedes reutilizarla como maceta, porta lápices o botella para regar plantas"
+    },
+
+    "papel": {
+        "reciclable": True,
+        "tiempo_descomposicion": "2-5 meses",
+        "manualidad": "puedes reutilizarlo como borrador, hacer origami o usarlo para notas"
+    },
+
+    "pilas": {
+        "reciclable": False,
+        "tiempo_descomposicion": "100-500 años",
+        "manualidad": "llevarlas a puntos de recolección especiales"
     }  
-   
 }
 
 def evaluar_objeto(nombre_objeto):  
